@@ -38,7 +38,8 @@ venv\Scripts\activate
 **Install the required packages:**
 pip install -r requirements.txt
 
-**Database Configuration**
+**Database Configuration:-**
+
 Configure your MySQL database credentials in the project's database configuration.
 
 **Example:**
@@ -57,7 +58,7 @@ uvicorn main:app --reload
 **The API will run at:**
 http://127.0.0.1:8000
 
-**API Documentation**
+**API Documentation:-**
 
 **After starting the server, open:**
 http://127.0.0.1:8000/docs
@@ -68,5 +69,7 @@ http://127.0.0.1:8000/redoc
 
 
 **Author:**
+
 Muhammad Ihtasham
+
 **GitHub:** https://github.com/ih8asham
