@@ -22,7 +22,6 @@ PyMySQL
 Uvicorn
 
 **Installation**
-
 **Clone the repository:**
 git clone https://github.com/ih8asham/student-management-api.git
 
@@ -49,7 +48,7 @@ DB_PORT = "3306"
 DB_NAME = "student_db"
 Do not upload real passwords or sensitive credentials to GitHub.
 
-**Run the API**
+**Run the API:**
 **Start the FastAPI server:**
 uvicorn main:app --reload
 
@@ -65,6 +64,6 @@ Swagger UI allows you to view and test the available API endpoints.
 http://127.0.0.1:8000/redoc
 
 
-**Author**
+**Author:**
 Muhammad Ihtasham
 **GitHub:** https://github.com/ih8asham
