@@ -1,0 +1,5 @@
+#installation 
+fastapi # FastAPI framework 
+uvicorn #ASGI Server for Running fastapi uvicorn 
+sqlalchemy #ORM for Database
+pymysql #MySql Database Driver 
