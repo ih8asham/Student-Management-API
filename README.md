@@ -3,13 +3,21 @@ A RESTful Student Management API built with Python and FastAPI.
 This project provides APIs for managing student records through a simple and structured backend application.
 
 **Features:**
+
 Create a new student
+
 Retrieve all students
+
 Retrieve a student by ID
+
 Update student information
+
 Delete a student
+
 Data validation using Pydantic
+
 RESTful API endpoints
+
 Interactive API documentation with Swagger UI
 
 **Technologies Used:**
