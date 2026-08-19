@@ -85,7 +85,6 @@ http://127.0.0.1:8000/redoc
 
 
 **Author:**
-
 Muhammad Ihtasham
 
 **GitHub:** https://github.com/ih8asham
