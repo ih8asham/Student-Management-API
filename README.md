@@ -1,8 +1,9 @@
-**Student Management API:**
+**1) Student Management API:**
+
 A RESTful Student Management API built with Python and FastAPI.
 This project provides APIs for managing student records through a simple and structured backend application.
 
-**Features:**
+**2) Features:**
 
 Create a new student
 
@@ -20,7 +21,7 @@ RESTful API endpoints
 
 Interactive API documentation with Swagger UI
 
-**Technologies Used:**
+**3) Technologies Used:**
 
 Python
 
@@ -36,7 +37,7 @@ PyMySQL
 
 Uvicorn
 
-**Installation:-**
+**4) Installation:-**
 
 **Clone the repository:**
 git clone https://github.com/ih8asham/student-management-api.git
@@ -53,7 +54,7 @@ venv\Scripts\activate
 **Install the required packages:**
 pip install -r requirements.txt
 
-**Database Configuration:-**
+**5) Database Configuration:-**
 
 Configure your MySQL database credentials in the project's database configuration.
 
@@ -65,7 +66,7 @@ DB_PORT = "3306"
 DB_NAME = "student_db"
 Do not upload real passwords or sensitive credentials to GitHub.
 
-**Run the API:-**
+**6) Run the API:-**
 
 **Start the FastAPI server:**
 uvicorn main:app --reload
@@ -73,7 +74,7 @@ uvicorn main:app --reload
 **The API will run at:**
 http://127.0.0.1:8000
 
-**API Documentation:-**
+**7) API Documentation:-**
 
 **After starting the server, open:**
 http://127.0.0.1:8000/docs
