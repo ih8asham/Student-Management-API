@@ -13,12 +13,19 @@ RESTful API endpoints
 Interactive API documentation with Swagger UI
 
 **Technologies Used:**
+
 Python
+
 FastAPI
+
 Pydantic
+
 SQLAlchemy
+
 MySQL
+
 PyMySQL
+
 Uvicorn
 
 **Installation:-**
