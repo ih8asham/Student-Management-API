@@ -1,8 +1,8 @@
-**Student Management API**
+**Student Management API:**
 A RESTful Student Management API built with Python and FastAPI.
 This project provides APIs for managing student records through a simple and structured backend application.
 
-**Features**
+**Features:**
 Create a new student
 Retrieve all students
 Retrieve a student by ID
@@ -12,7 +12,7 @@ Data validation using Pydantic
 RESTful API endpoints
 Interactive API documentation with Swagger UI
 
-**Technologies Used**
+**Technologies Used:**
 Python
 FastAPI
 Pydantic
@@ -22,6 +22,7 @@ PyMySQL
 Uvicorn
 
 **Installation**
+
 **Clone the repository:**
 git clone https://github.com/ih8asham/student-management-api.git
 
