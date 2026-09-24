@@ -2,11 +2,15 @@ from fastapi import FastAPI, Depends, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 
+from fastapi.responses import FileResponse #new added
+from fastapi.staticfiles import StaticFiles #new added
+
 from database import get_db, Base, engine 
 from models import Student
 from schemas import StudentCreate, StudentOut
 
 app = FastAPI(title="Student Management API")
+app.mount("/static", StaticFiles(directory="static"), name="static") #new added 
 # CORS
 app.add_middleware(
     CORSMiddleware,
@@ -20,7 +24,8 @@ Base.metadata.create_all(bind=engine)
 
 @app.get("/")
 def home():
-    return {"message": "Student API is running"}
+    return FileResponse("static/index.html")
+    # return {"message": "Student API is running"} 
 
 
 @app.post("/students", response_model=StudentOut)
