@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Student Management System</h1>
+    </header>
+
+
+        <main> 
+                <section>
+
+                    <h2>Add Student</h2>
+
+                    <form id="addStudentForm"> 
+
+                        <label for="addstudentName">Name:</label> 
+                        <input type="text" id="addstudentName" placeholder="Enter student name">
+
+                        <br><br>
+
+                        <label for="addstudentAge">Age:</label>
+                        <input type="number" id="addstudentAge" placeholder="Enter Age">
+
+                        <br><br>
+
+                        <label for="addstudentCity">City:</label>
+                        <input type="text" id="addstudentCity" placeholder="Enter City">
+
+                        <br><br>
+
+                        <button type="submit">Add Student</button>
+                    </form>
+
+                </section>
+
+            <hr>
+
+            <section>
+
+                <h2>Update Student</h2>
+                
+                <form id="updateStudentForm">
+                    <label for="updatestudentId">Student ID:</label>
+                    <input type="number" id="updatestudentId" placeholder="Enter student ID">
+
+                    <br><br>
+
+                    <label for="updatestudentName">New Name:</label>
+                    <input type="text" id="updatestudentName" placeholder="Enter student Name">
+
+                    <br><br>
+
+                    <label for="updatestudentAge">New Age:</label>
+                    <input type="number" id="updatestudentAge" placeholder="Enter Age">
+
+                    <br><br>
+
+                    <label for="updatestudentCity">New City:</label>
+                    <input type="text" id="updatestudentCity" placeholder="Enter City">
+
+                    <br><br>
+                    
+                    <button type="submit">Update Student</button> 
+
+                </form>
+
+            </section>
+
+            <hr>
+
+            <section>
+
+                <h2>Delete Student</h2>
+
+                <form id="deleteStudentForm">
+                    <label for="deletestudentId">Student ID:</label>
+                    <input type="number" id="deletestudentId" placeholder="Enter student ID">
+
+                    <br><br>
+                    
+                    <button type="submit">Delete Student</button>
+
+                    <br><br>
+                </form>
+
+            </section>
+
+            <hr>
+
+            <section>
+
+                <h2>View Students</h2>
+
+                <table border="1">
+
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>City</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>ID</td>
+                            <td>Name</td>
+                            <td>Age</td> 
+                            <td>City</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+            </section>
+
+        </main>
+
+        <hr>
+
+    <footer>
+        <p>All Rights Reserved </p> 
+    </footer>
+
+    <script src="script.js"></script> 
+
+</body>
+</html>
