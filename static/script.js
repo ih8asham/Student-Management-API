@@ -127,7 +127,7 @@ deleteStudentForm.addEventListener("submit", function(event)
 
 function loadStudents()
 // { fetch("http://127.0.0.1:8000/students")
-{ fetch("/students")
+{ fetch("/students") 
 
   .then(function(response)
     {
