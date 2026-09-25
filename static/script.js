@@ -14,7 +14,6 @@ addStudentForm.addEventListener("submit", function(event)
         city: city
     }; 
 
-    // fetch("http://127.0.0.1:8000/students",
     fetch("/students",
 
         { method: "POST",  
@@ -62,7 +61,6 @@ updateStudentForm.addEventListener("submit", function(event)
         city: city
     };
 
-    // fetch(`http://127.0.0.1:8000/students/${id}`,
     fetch(`/students/${id}`,
         
         { method:"PUT",
@@ -99,7 +97,6 @@ deleteStudentForm.addEventListener("submit", function(event)
 
     const id = document.getElementById("deletestudentId").value;
 
-    // fetch(`http://127.0.0.1:8000/students/${id}`,
     fetch(`/students/${id}`,
 
         {
@@ -126,7 +123,7 @@ deleteStudentForm.addEventListener("submit", function(event)
 });
 
 function loadStudents()
-// { fetch("http://127.0.0.1:8000/students")
+
 { fetch("/students") 
 
   .then(function(response)

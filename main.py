@@ -1,16 +1,15 @@
 from fastapi import FastAPI, Depends, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 
-from fastapi.responses import FileResponse #new added
-from fastapi.staticfiles import StaticFiles #new added
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles 
 
 from database import get_db, Base, engine 
 from models import Student
 from schemas import StudentCreate, StudentOut
 
 app = FastAPI(title="Student Management API")
-app.mount("/static", StaticFiles(directory="static"), name="static") #new added 
+app.mount("/static", StaticFiles(directory="static"), name="static") 
 # CORS
 app.add_middleware(
     CORSMiddleware,
