@@ -1,6 +1,6 @@
 **1) Student Management API:**
 
-A RESTful Student Management API built with Python and FastAPI.
+A RESTful Student Management API built with HTML, CSS, JS, Python and FASTAPI.
 This project provides APIs for managing student records through a simple and structured backend application.
 
 **2) Features:**
